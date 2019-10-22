@@ -36,6 +36,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.2"
+  date_format:
+    dependency: "direct dev"
+    description:
+      name: date_format
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.6"
   firebase_core:
     dependency: transitive
     description:
@@ -44,12 +51,19 @@ packages:
     source: hosted
     version: "0.4.0+9"
   firebase_database:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: firebase_database
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.7"
+  firebase_storage:
+    dependency: "direct dev"
+    description:
+      name: firebase_storage
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.6"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -60,6 +74,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  image_picker:
+    dependency: "direct dev"
+    description:
+      name: image_picker
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.1+8"
   matcher:
     dependency: transitive
     description:
